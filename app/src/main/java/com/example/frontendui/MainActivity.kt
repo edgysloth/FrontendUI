@@ -90,7 +90,7 @@ class MainActivity : ComponentActivity() {
                             Spacer(modifier = Modifier.height(8.dp))
                             OutlinedTextField(
                                 value = password,
-                                onValueChange = { text = it },
+                                onValueChange = { password = it },
                                 label = { Text("Password") },
                                 modifier = Modifier.fillMaxWidth()
                             )
